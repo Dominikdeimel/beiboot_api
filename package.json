@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/backend.ts",
   "scripts": {
-    "start": "tsc && node dist/backend.js",
+    "start": "node dist/backend.js",
     "build": "tsc",
     "lint": "eslint src/**.js"
   },
