@@ -55,7 +55,7 @@ var BackendApplication = /** @class */ (function () {
     BackendApplication.prototype.start = function () {
         this.initializeServer();
         this.initializeEndpoints();
-        this._app.listen(3000, function () {
+        this._app.listen(process.env.PORT || 3000, function () {
             console.log('Listening on port 3000');
         });
     };
